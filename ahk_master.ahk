@@ -25,11 +25,15 @@ return
 Send !rtds{Enter}
 return
 
-; World Insert mendeley citation
+; Word Insert mendeley citation
 :*?:imdl::
 Send !sy1
 return
 
+; Word: Fit picture to width
+:*?fptw::
+Send !jpw6.5{Enter}
+return
 
 
 
