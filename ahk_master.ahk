@@ -35,7 +35,10 @@ return
 Send, !jpw6.5{Enter}
 return
 
-
+; Office: Minus sign
+:*?:sgmn::
+Send 2212!x
+return
 
 
 
