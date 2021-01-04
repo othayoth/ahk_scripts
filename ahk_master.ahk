@@ -31,7 +31,8 @@ Send !sy1
 return
 
 ; Word: Fit picture to width
-^fw::Send !jpw6.5{Enter}
+^!f::
+Send, !jpw6.5{Enter}
 return
 
 
