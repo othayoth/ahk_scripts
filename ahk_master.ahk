@@ -47,6 +47,19 @@ Send 2212!x
 return
 
 
+; Git pull origin master
+:*?:gplom::
+Send !dcmd{Enter}git pull origin master{Enter}
+return
+
+; Git push origin master
+:*?:gpsom::
+Send git push origin master{Enter}
+return
+
+
+
+
 
 
 
