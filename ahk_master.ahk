@@ -26,6 +26,7 @@ return
 
 ; Word - Simple Markup
 ; Press <smkp> in an active word window 
+:*?:smkp::
 Send !rtds{Enter}
 return
 
@@ -46,6 +47,29 @@ return
 Send 2212!x
 return
 
+; Word: PLus/Minus sign
+; Press <sgpm> in an active word window 
+:*?:sgpm::
+Send {Alt Down}{NumPad0}{NumPad1}{NumPad7}{NumPad7}{Alt Up}
+return
+
+; Word: Degree sign
+; Press <sgdg> in an active word window 
+:*?:sgdg::
+Send {Alt Down}{NumPad0}{NumPad1}{NumPad7}{NumPad6}{Alt Up}
+return
+
+; Word: Theta
+; Press <sgdg> in an active word window 
+:*?:syth::
+Send {NumPad0}{NumPad3}{b}{NumPad8}{Alt Down}{x}{Alt Up}
+return
+
+; Word: Delta
+; Press <sgdg> in an active word window 
+:*?:sydt::
+Send {NumPad0}{NumPad3}{NumPad9}{NumPad4}{Alt Down}{x}{Alt Up}
+return
 
 ; Git pull origin master
 :*?:gplom::
